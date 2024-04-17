@@ -3,7 +3,7 @@ class Main{
                 System.out.println("moonlight");
         }
         public static void winter( int temp){
-                if(temp > 30){
+                if(temp > 40){ //changed temp
                         System.out.print(" * ");
                         temp -= 1;
                         winter(temp);
